@@ -1,5 +1,7 @@
 # about-me
 
+Hi there, thanks for visting my site.
+
 # LAB - Number
 
 ## Project Name
