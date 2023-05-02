@@ -10,6 +10,8 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 ### Author: Student/Group Name
 
+* Worked with Christian and Rocio to help with lab 2
+
 ### Links and Resources
 
 * [submission PR](http://xyz.com)
@@ -19,6 +21,7 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 ### Lighthouse Accessibility Report Score
 
 * Provide a screenshot of your score after running a Lighthouse Accessibility report.
+* [accessilbility screenshot](/home/alexchao/projects/courses/code-201/about-me/about-me/img/accessibility-screenshot.png)
 
 ### Reflections and Comments
 

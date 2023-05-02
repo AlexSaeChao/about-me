@@ -44,7 +44,7 @@ if (questionThreeGuess ==='y' || questionThreeGuess === 'yes'){
   alert('You are incorrect, peanuts are legumes like lentils and peas');
 } else if(questionThreeGuess === 'n' || questionThreeGuess === 'no'){
   // console.log('input no, peanuts');
-  alert('bzzzt, incorrect, peanuts are legumes like lentils and peas');
+  alert('That is correct, peanuts are legumes like lentils and peas');
 }
 
 
