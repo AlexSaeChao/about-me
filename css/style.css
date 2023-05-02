@@ -4,9 +4,14 @@ body {
 
 h1 {
     font-size: 32px;
+    background-color: darkblue;
+    color: bisque;
 }
 
-p {
-    padding: 5px;
-    margin: 10px;
+section {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    align-items: flex start;
 }
+

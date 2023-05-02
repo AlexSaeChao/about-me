@@ -10,6 +10,7 @@ let userName = prompt('Hi there, what is your name?');
 if (userName === null || userName === ''){
   alert('You forgot to input your name or you just clicked cancel.');
 } else {
+  // console.log(userName);
   alert(`Thanks for stopping by ${userName} I hope you are well`);
 }
 // Done Display the user’s name back to them in your final message to the user.
