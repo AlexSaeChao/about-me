@@ -51,7 +51,7 @@ if (questionTwoGuess === 'y' || questionTwoGuess === 'yes') {
 questionTwo();
 
 // Question 3
-// function questionThree(){
+function questionThree(){
   let questionThreeGuess = prompt('Are peanuts the nut family? Answer with a yes/no or y/n.').toLowerCase();
 
   if (questionThreeGuess === 'y' || questionThreeGuess === 'yes') {
@@ -63,9 +63,9 @@ questionTwo();
     answerCorrect++;
   }
 
-// }
+}
 
-// questionThree();
+questionThree();
 
 // Question 4
 // function questionfour() {
