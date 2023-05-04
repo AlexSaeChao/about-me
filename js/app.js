@@ -36,7 +36,7 @@ if (questionOneGuess === 'y' || questionOneGuess === 'yes') {
 questionOne();
 
 // Question 2
-// function questionTwo() {
+function questionTwo() {
 let questionTwoGuess = prompt('Does a spider have 12 legs? Answer with a yes/no or y/n.').toLowerCase();
 
 if (questionTwoGuess === 'y' || questionTwoGuess === 'yes') {
@@ -47,8 +47,8 @@ if (questionTwoGuess === 'y' || questionTwoGuess === 'yes') {
   alert('Thats correct, they have 8 legs.');
   answerCorrect++;
 }
-// }
-// questionTwo();
+}
+questionTwo();
 
 // Question 3
 // function questionThree(){
