@@ -83,7 +83,7 @@ function questionfour() {
 questionfour();
 
 // Question 5
-// function questionFive() {
+function questionFive() {
   let questionFiveGuess = prompt('Does light travel in a straight line? Answer with a yes/no or y/n.').toLowerCase();
 
   if (questionFiveGuess === 'y' || questionFiveGuess === 'yes') {
@@ -94,9 +94,9 @@ questionfour();
     // console.log('input no, light');
     alert('bzzzt, incorrect, Light does travel in a straight line');
   }
-// }
+}
 
-// questionFive();
+questionFive();
 
 
 // Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
