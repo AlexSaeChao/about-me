@@ -155,7 +155,7 @@ let foundFavTree = false;
 alert(`Let's play another game. Guess my favorite kind of tree, you should have ${numTrys} attempts.`);
 // Consider using a loop of some sort for this question.
 
-// function questionSeven() {
+function questionSeven() {
   for (let i = 1; i <= numTrys; i++) {
     userTree = prompt(`Whats my favorite tree. you have ${numTrys - i + 1} attempts left.`);
     userTree = userTree.toLowerCase();
@@ -172,8 +172,8 @@ alert(`Let's play another game. Guess my favorite kind of tree, you should have 
     // Display all the possible correct answers to the user.
     alert(`Sorry, you have ran out of trys. The correct answers were ${favTree[0]}, ${favTree[1]}, ${favTree[2]}.`);
   }
-// }
+}
 
-// questionSeven();
+questionSeven();
 
-alert(`Thanks for answering these questions, ${userName}. Your score is ${answerCorrect} out of the 7. I hope you enjoyed it.`);
+alert(`The correct answers were ${favTree[0]}, ${favTree[1]}, ${favTree[2]}. Thanks for answering these questions, ${userName}. Your score is ${answerCorrect} out of the 7. I hope you enjoyed it. `);
