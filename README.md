@@ -11,6 +11,9 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 ### Author: Student/Group Name
 
 * Worked with ChristianRhey Tojot and Rocio Martinez to help with lab 2
+I was Navigator on: https://github.com/jennisung/about-me-1.git
+I was Driver on: https://github.com/AlexSaeChao/about-me-1.git
+Jennifer Sung added functions to the questions.
 
 ### Links and Resources
 
