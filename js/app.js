@@ -36,7 +36,7 @@ if (questionOneGuess === 'y' || questionOneGuess === 'yes') {
 questionOne();
 
 // Question 2
-function questionTwo() {
+// function questionTwo() {
 let questionTwoGuess = prompt('Does a spider have 12 legs? Answer with a yes/no or y/n.').toLowerCase();
 
 if (questionTwoGuess === 'y' || questionTwoGuess === 'yes') {
@@ -47,11 +47,11 @@ if (questionTwoGuess === 'y' || questionTwoGuess === 'yes') {
   alert('Thats correct, they have 8 legs.');
   answerCorrect++;
 }
-}
-questionTwo();
+// }
+// questionTwo();
 
 // Question 3
-function questionThree(){
+// function questionThree(){
   let questionThreeGuess = prompt('Are peanuts the nut family? Answer with a yes/no or y/n.').toLowerCase();
 
   if (questionThreeGuess === 'y' || questionThreeGuess === 'yes') {
@@ -63,12 +63,12 @@ function questionThree(){
     answerCorrect++;
   }
 
-}
+// }
 
-questionThree();
+// questionThree();
 
 // Question 4
-function questionfour() {
+// function questionfour() {
   let questionFourGuess = prompt('Can emus fly? Answer with a yes/no or y/n.').toLowerCase();
 
   if (questionFourGuess === 'y' || questionFourGuess === 'yes') {
@@ -79,11 +79,11 @@ function questionfour() {
     // console.log('input no, emu');
     alert('bzzzt, incorrect, they really can fly!');
   }
-}
-questionfour();
+// }
+// questionfour();
 
 // Question 5
-function questionFive() {
+// function questionFive() {
   let questionFiveGuess = prompt('Does light travel in a straight line? Answer with a yes/no or y/n.').toLowerCase();
 
   if (questionFiveGuess === 'y' || questionFiveGuess === 'yes') {
@@ -94,9 +94,9 @@ function questionFive() {
     // console.log('input no, light');
     alert('bzzzt, incorrect, Light does travel in a straight line');
   }
-}
+// }
 
-questionFive();
+// questionFive();
 
 
 // Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
@@ -113,7 +113,7 @@ let correctNumber = false;
 // FOR Lab you will have to figure out how to compare a string and a num in your strictly equals world
 alert(`Let's play a game. Guess a number between 1 - 10, you should have ${numberAttempts} attempts.`);
 
-function questionSix() {
+// function questionSix() {
   while (correctNumber === false && numberAttempts > 0) {
     userGuess = +prompt(`Guess a number between 1 - 10, you should have ${numberAttempts} attempts.`);
     console.log('++++', userGuess);
@@ -139,9 +139,9 @@ function questionSix() {
     alert(`Game Over! the correct number was ${myNum}.`);
   }
 
-}
+// }
 
-questionSix();
+// questionSix();
 
 // Add a 7th question that has multiple possible correct answers that are stored in an array.
 // Question 7
@@ -155,7 +155,7 @@ let foundFavTree = false;
 alert(`Let's play another game. Guess my favorite kind of tree, you should have ${numTrys} attempts.`);
 // Consider using a loop of some sort for this question.
 
-function questionSeven() {
+// function questionSeven() {
   for (let i = 1; i <= numTrys; i++) {
     userTree = prompt(`Whats my favorite tree. you have ${numTrys - i + 1} attempts left.`);
     userTree = userTree.toLowerCase();
@@ -172,8 +172,8 @@ function questionSeven() {
     // Display all the possible correct answers to the user.
     alert(`Sorry, you have ran out of trys. The correct answers were ${favTree[0]}, ${favTree[1]}, ${favTree[2]}.`);
   }
-}
+// }
 
-questionSeven();
+// questionSeven();
 
 alert(`Thanks for answering these questions, ${userName}. Your score is ${answerCorrect} out of the 7. I hope you enjoyed it.`);
