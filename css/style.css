@@ -8,10 +8,24 @@ h1 {
     color: bisque;
 }
 
-section {
-    display: inline-block;
+main article {
+    background-color: lightgray;    
+}
+
+main article ul li{
+    list-style-type: disc;
+    list-style-position: inside;
+    color: purple;
     vertical-align: top;
-    width: 20%;
-    align-items: flex start;
+}
+
+main section {
+    background-color: lightgoldenrodyellow;
+}
+
+main section ol li {
+    width: 50%;
+    list-style-type: number; 
+    list-style-position: inside; 
 }
 

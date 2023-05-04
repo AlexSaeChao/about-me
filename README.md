@@ -16,11 +16,15 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 * Any Links you used as reference
 * [Questions 3-5 References from opinionstage.com](https://www.opinionstage.com/blog/true-or-false-questions/)
+* [w3schools.com](https://www.opinionstage.com/blog/true-or-false-questions/)
+* [Stackoverflow Questions For Default Styling](https://stackoverflow.com/questions/11737266/what-is-default-list-styling-css)
+
 
 ### Lighthouse Accessibility Report Score
 
 * Provide a screenshot of your score after running a Lighthouse Accessibility report.
-* [accessilbility screenshot](/about-me/img/accessibility-screenshot.png)
+* [accessilbility screenshot lab 02](/about-me/img/accessibility-screenshot.png)
+* [accessilbility screenshot lab 03](/about-me/img/lab-03-accessbility-screenshot.png)
 
 ### Reflections and Comments
 
