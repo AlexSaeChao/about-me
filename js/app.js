@@ -113,7 +113,7 @@ let correctNumber = false;
 // FOR Lab you will have to figure out how to compare a string and a num in your strictly equals world
 alert(`Let's play a game. Guess a number between 1 - 10, you should have ${numberAttempts} attempts.`);
 
-// function questionSix() {
+function questionSix() {
   while (correctNumber === false && numberAttempts > 0) {
     userGuess = +prompt(`Guess a number between 1 - 10, you should have ${numberAttempts} attempts.`);
     console.log('++++', userGuess);
@@ -139,9 +139,9 @@ alert(`Let's play a game. Guess a number between 1 - 10, you should have ${numbe
     alert(`Game Over! the correct number was ${myNum}.`);
   }
 
-// }
+}
 
-// questionSix();
+questionSix();
 
 // Add a 7th question that has multiple possible correct answers that are stored in an array.
 // Question 7
