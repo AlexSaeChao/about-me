@@ -52,7 +52,7 @@ questionTwo();
 
 // Question 3
 function questionThree(){
-  let questionThreeGuess = prompt('Are peanuts the nut family? Answer with a yes/no or y/n.').toLowerCase();
+  let questionThreeGuess = prompt('Are peanuts in the nut family? Answer with a yes/no or y/n.').toLowerCase();
 
   if (questionThreeGuess === 'y' || questionThreeGuess === 'yes') {
     // console.log('input yes, peanuts');
@@ -68,7 +68,7 @@ function questionThree(){
 questionThree();
 
 // Question 4
-// function questionfour() {
+function questionfour() {
   let questionFourGuess = prompt('Can emus fly? Answer with a yes/no or y/n.').toLowerCase();
 
   if (questionFourGuess === 'y' || questionFourGuess === 'yes') {
@@ -79,8 +79,8 @@ questionThree();
     // console.log('input no, emu');
     alert('bzzzt, incorrect, they really can fly!');
   }
-// }
-// questionfour();
+}
+questionfour();
 
 // Question 5
 // function questionFive() {
