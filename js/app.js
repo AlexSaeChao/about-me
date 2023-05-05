@@ -20,37 +20,38 @@ let answerCorrect = 0;
 // Question 1
 
 function questionOne() {
-let questionOneGuess = prompt('Can you guess if I like pizza? Answer with a yes/no or y/n.').toLowerCase();
+  let questionOneGuess = prompt('Can you guess if I like pizza? Answer with a yes/no or y/n.').toLowerCase();
 
-if (questionOneGuess === 'y' || questionOneGuess === 'yes') {
-  // console.log('input yes, pizza');
-  alert('You are correct');
-  answerCorrect++;
-} else if (questionOneGuess === 'n' || questionOneGuess === 'no') {
-  // console.log('input no, pizza');
-  alert('bzzzt, incorrect');
+  if (questionOneGuess === 'y' || questionOneGuess === 'yes') {
+    // console.log('input yes, pizza');
+    alert('You are correct');
+    answerCorrect++;
+  } else if (questionOneGuess === 'n' || questionOneGuess === 'no') {
+    // console.log('input no, pizza');
+    alert('bzzzt, incorrect');
 
-}
+  }
 }
 
 questionOne();
 
 // Question 2
 function questionTwo() {
-let questionTwoGuess = prompt('Does a spider have 12 legs? Answer with a yes/no or y/n.').toLowerCase();
+  let questionTwoGuess = prompt('Does a spider have 12 legs? Answer with a yes/no or y/n.').toLowerCase();
 
-if (questionTwoGuess === 'y' || questionTwoGuess === 'yes') {
-  // console.log('input yes, spider');
-  alert('You are incorrect, they have 8');
-} else if (questionTwoGuess === 'n' || questionTwoGuess === 'no') {
-  // console.log('input no, spider');
-  alert('Thats correct, they have 8 legs.');
-  answerCorrect++;
-}
+  if (questionTwoGuess === 'y' || questionTwoGuess === 'yes') {
+    // console.log('input yes, spider');
+    alert('You are incorrect, they have 8');
+  } else if (questionTwoGuess === 'n' || questionTwoGuess === 'no') {
+    // console.log('input no, spider');
+    alert('Thats correct, they have 8 legs.');
+    answerCorrect++;
+  }
 }
 questionTwo();
 
 // Question 3
+
 function questionThree(){
   let questionThreeGuess = prompt('Are peanuts in the nut family? Answer with a yes/no or y/n.').toLowerCase();
 
@@ -168,7 +169,7 @@ function questionSeven() {
     }
   }
 
-  if (numTrys === 0 || !foundFavTree){
+  if (numTrys === 0 || !foundFavTree) {
     // Display all the possible correct answers to the user.
     alert(`Sorry, you have ran out of trys. The correct answers were ${favTree[0]}, ${favTree[1]}, ${favTree[2]}.`);
   }
