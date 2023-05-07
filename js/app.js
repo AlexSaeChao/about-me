@@ -88,7 +88,6 @@ alert(`Let's play a game. Guess a number between 1 - 10, you should have ${numbe
 function questionSix() {
   while (correctNumber === false && numberAttempts > 0) {
     userGuess = +prompt(`Guess a number between 1 - 10, you should have ${numberAttempts} attempts.`);
-    console.log('++++', userGuess);
     if (userGuess === myNum) {
       alert(`You got it right! My number is ${myNum}.`);
       correctNumber = true;
